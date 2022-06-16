@@ -6,8 +6,9 @@ export default class Button extends Component {
 
 
     render() {
+        const text = this.context === 'english' ? 'Submit' : 'Voorleggen';
         return (
-            <button className='ui button primary'>Submit</button>
+            <button className='ui button primary'>{text}</button>
         )
     }
 }
