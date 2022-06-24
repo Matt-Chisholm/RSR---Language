@@ -9,7 +9,7 @@ export default class Field extends Component {
         const name = this.context === 'english' ? 'Name' : 'Naam';
         return (
             <div className='ui field'>
-                <label>{name} :</label>
+                <label>{name} : </label>
                 <input />
             </div>
         )
